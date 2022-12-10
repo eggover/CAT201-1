@@ -2,11 +2,11 @@ body{
     background-color:mistyrose;
     color:#000000;
     width:auto;
-    /*font-family: Roboto, "Helvetica Neue",sans-serif;*/
 }
 
 .container{
     text-align: center;
+    color: white;
     margin:auto;
     overflow:hidden;
 }
@@ -20,8 +20,8 @@ body{
 
 .upload-file{
     font-size:16px;
-    background-color:palevioletred;
-    border-radius: 50px;
+    background-color:rgb(48, 41, 148);
+    border-radius: 15px;
     box-shadow: 5px 5px 10px black;
     width: 400px;
     outline: none;
@@ -29,28 +29,32 @@ body{
 
 ::-webkit-file-upload-button{
     color:whitesmoke;
-    background: darksalmon;
+    background: rgb(137, 223, 243);
     padding: 20px;
     border:none;
-    border-radius:50px;
-    box-shadow: 1px 0 1px 1px pink;
+    border-radius:15px;
+    box-shadow: 1px 0 1px 1px rgb(8, 6, 80);
     outline:none;
 }
 
 ::-webkit-file-upload-button:hover{
-    background: lightpink;
+    background: rgb(8, 6, 80);
 
 }
 #header{
     font-family: 'Courier New', monospace, cursive;
-    background-color:palevioletred;
+    background-color:rgb(112, 216, 193);
     color:#000000;
     font-size: 25px;
+    background-image: url(background.png);
 }
 
 .gallery{
 
-    margin: 5px;
+    
+    right: 0px;
+    left:0px;
+    margin: 10px;
     background-color: white;
     float: left;
     padding: 5px;
@@ -63,8 +67,11 @@ body{
     font-family: 'Special Elite', cursive;
 }
 .row{
-    margin-top:145px;
-    margin-left: 290px;
+    border: 10px solid gray;
+    max-width: 920px;
+    margin:auto;
+    margin-top:250px;
+    justify-content: center;
 }
 .row::after {
     content: "";
@@ -76,7 +83,7 @@ body{
 .desc{
     padding: 10px;
     text-align: center;
-    height:150px;
+    height: 160px;
 }
 
 .alert {
