@@ -1,0 +1,138 @@
+body{
+    background-color:mistyrose;
+    color:#000000;
+    width:auto;
+    /*font-family: Roboto, "Helvetica Neue",sans-serif;*/
+}
+
+.container{
+    text-align: center;
+    margin:auto;
+    overflow:hidden;
+}
+
+.upload-container{
+    top:27%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+
+.upload-file{
+    font-size:16px;
+    background-color:palevioletred;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 400px;
+    outline: none;
+}
+
+::-webkit-file-upload-button{
+    color:whitesmoke;
+    background: darksalmon;
+    padding: 20px;
+    border:none;
+    border-radius:50px;
+    box-shadow: 1px 0 1px 1px pink;
+    outline:none;
+}
+
+::-webkit-file-upload-button:hover{
+    background: lightpink;
+
+}
+#header{
+    font-family: 'Courier New', monospace, cursive;
+    background-color:palevioletred;
+    color:#000000;
+    font-size: 25px;
+}
+
+.gallery{
+
+    margin: 5px;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.gallery h3{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
+.row{
+    margin-top:145px;
+    margin-left: 290px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.desc{
+    padding: 10px;
+    text-align: center;
+    height:150px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+.message {
+    font-family: lato;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+#failed {
+    margin-left: 300px;
+}
+#fail {
+    margin-left: 330px;
+}
+#success {
+    margin-left: 350px;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
